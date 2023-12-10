@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "expo-moquette": ["./src/index"]
+      "expo-broker-moquette": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
