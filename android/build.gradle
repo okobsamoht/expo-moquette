@@ -18,9 +18,9 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('ExpoMqttBroker_compileSdkVersion', 29)
+    compileSdkVersion safeExtGet('ExpoMqttBroker_compileSdkVersion', 30)
     defaultConfig {
-        minSdkVersion safeExtGet('ExpoMqttBroker_minSdkVersion', 16)
+        minSdkVersion safeExtGet('ExpoMqttBroker_minSdkVersion', 24)
         targetSdkVersion safeExtGet('ExpoMqttBroker_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"
